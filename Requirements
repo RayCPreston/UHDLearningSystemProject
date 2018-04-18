@@ -13,7 +13,7 @@
 so please sound off if something sounds up your alley.  There should be plenty of open source code to help us out anyways.
           
 -Make the database, it should be relatively easy considering the limited tables and columns.
-          For the GPA calculation
+          For the GPA calculation.        One table for people, one table for courses.  Any others?
 -Make an algorithm that will calculate GPA.
 -Function to connect to database.
 -Function to read grade records into variables for processing.
