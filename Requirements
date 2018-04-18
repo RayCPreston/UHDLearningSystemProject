@@ -1,0 +1,28 @@
+  The LMS will have the following requirements, which can be translated into a UML diagram so the tasks can be divided up between the 5 group members.
+
+-Project will need a GUI login and display screen
+-A database or similar file with similar functionality that will keep track of the following data. 
+  -Student Name. 
+  -Student ID. 
+  -Registered semester courses. 
+  -Each exam score, for each course 
+  -GPA calculations 
+  -Separate login credentials: basic user, and administrator.
+  
+  As I currently see it, this can all be done in Visual Studio and SQL Server.  I don't know what everyone is comfortable with, 
+so please sound off if something sounds up your alley.  There should be plenty of open source code to help us out anyways.
+          
+-Make the database, it should be relatively easy considering the limited tables and columns.
+          For the GPA calculation
+-Make an algorithm that will calculate GPA.
+-Function to connect to database.
+-Function to read grade records into variables for processing.
+          For the login GUI
+-Make the GUI, nothing fancy, just fields for USER, PASS, a LOGIN button, and a CLOSE/CANCEL button.
+-Funtion to pass entered data to User and Pass variables.
+-Function to check database access levels with User and Pass variables.
+-Once credentials verified, there needs to be a second GUI where you can select what data to have displayed.  Will return
+   SQL table.  This can all be check boxes that will get stuck in the SELECT statement.  Since there's only one semester to deal
+   with, there won't be a need to deal with that user input.
+   
+   --I have to get back to work for a little bit.  Please feel free to add anything else or make changes.  Deadline's coming--
