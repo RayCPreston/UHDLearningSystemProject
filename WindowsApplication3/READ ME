@@ -10,3 +10,15 @@ Notes:
 		it is not connected to anything.
     
 		-Waterfall model is probably the best way to go for this project, in my opinion
+		-We should use a modern development life-cycle.  Waterfall is a classical model, and we may lose points for the
+		old paradigm.  Reading the professors word doc, it seems like he wants the 4 major workflows of increment and iterative:
+			-requirements
+			-analysis
+			-design
+			-implementation.  
+			
+		We've already got requirements knocked out I think.  Unless something is missing.  I'll start working out something for
+	analysis today and we can make sure they line up by this afternoon.  
+		Tomorrow we can knock out design workflow and get a UML going.  I've done some research, there are some templates floating 
+	around that we can modify to fit our needs.  Modules and everything.
+		Then we'll have the weekend to puzzle together code for implementation, leaving monday and tuesday for testing.
