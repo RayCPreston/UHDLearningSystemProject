@@ -1,0 +1,8 @@
+4/18/2018 - Uploaded prototype GUI and framework of program to identify basic requirements. Needs architecture diagram, use case diagram, workflow, artifacts
+
+Notes:
+		- I did not include the option to create and sign into an account as I do not know if it is necessary. However, it can easily be added.
+        
+		-The name listed in the administrator form was put there to test the delete function; it is not connected to anything.
+    
+		-Waterfall model is probably the best way to go for this project, in my opinion
