@@ -1,28 +1,44 @@
-  The LMS will have the following requirements, which can be translated into a UML diagram so the tasks can be divided up between the 5 group members.
+  The following is the analysis of the requirements given previously
 
--Project will need a GUI login and display screen
--A database or similar file with similar functionality that will keep track of the following data. 
-  -Student Name. 
-  -Student ID. 
-  -Registered semester courses. 
-  -Each exam score, for each course 
-  -GPA calculations 
-  -Separate login credentials: basic user, and administrator.
+-Project will need a GUI login and display screen containing the following:
+  -Username field
+  -Password field
+  -Login Button
+  -Close/Cancel Button
   
-  As I currently see it, this can all be done in Visual Studio and SQL Server.  I don't know what everyone is comfortable with, 
-so please sound off if something sounds up your alley.  There should be plenty of open source code to help us out anyways.
-          
--Make the database, it should be relatively easy considering the limited tables and columns.
-          For the GPA calculation
--Make an algorithm that will calculate GPA.
--Function to connect to database.
--Function to read grade records into variables for processing.
-          For the login GUI
--Make the GUI, nothing fancy, just fields for USER, PASS, a LOGIN button, and a CLOSE/CANCEL button.
--Funtion to pass entered data to User and Pass variables.
--Function to check database access levels with User and Pass variables.
--Once credentials verified, there needs to be a second GUI where you can select what data to have displayed.  Will return
-   SQL table.  This can all be check boxes that will get stuck in the SELECT statement.  Since there's only one semester to deal
-   with, there won't be a need to deal with that user input.
-   
-   --I have to get back to work for a little bit.  Please feel free to add anything else or make changes.  Deadline's coming--
+-Login button will put you at the second GUI screen it will display the following information:
+  -All personal data about the student(or administrator):
+    -Full name
+    -Student ID
+    -GPA Calculation
+  -Will have buttons for the follwing:
+    -Log out
+    -A button labelled 'course info' that will move user to different GUI window with the follwing information:
+      -Course Names
+      -Course ID
+      -Professor Name
+
+There will need to be a database with the following tables:
+  -Person Table with the following columns:
+    ID(PK)
+    Name
+    Job(Student/Administrator)
+    Course ID(FK)
+    
+  -Course Table with the following columns:
+    Course ID(PK)
+    Course Name
+    Professor
+    Student ID(FK)
+    
+The only algorithm to be used will be the GPA calculation it will be tied to the module that runs the algorith.
+
+A module to connect to the database will be necessary and will contain functions to create the connection, another function to check for 
+name comparison and after that has been passed, a function will be passed to see if the password matches.
+
+Another will be necessary to deal with the login process.  It will read the input at the front GUI: username and password then be passed 
+to the above module for checking in the database.
+
+Another will be needed to bring up the second screen, which will show full name, ID and the calculated GPA.  There will be a button that
+puts you to the 3rd and final GUI window showing courseNames courseID and professorName.  All GUI's beyond the login screen will have a 
+logout button.
