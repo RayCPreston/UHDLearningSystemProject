@@ -1,0 +1,25 @@
+A database that will track information on 2 levels.
+
+People
+  -Their Names
+  -ID's within the school system.
+  -Courses taken
+  -each exam's score in each course.
+  -GPA calculator for current semester
+  
+Courses
+  -Teacher name
+  -CourseID
+  -Course Name
+  -Enrolled students
+  
+A GUI that makes user navigation easy
+
+  1 screen for logging in
+  The next screen will show all personal information for the user.  It will be assumed
+the user logging in is also the student.  If not student, will be administrator who will 
+be able to update necessary information.
+  A screen for each of the following, linked by second screen buttons.
+    -Enrolled Courses
+    -GPA
+    
