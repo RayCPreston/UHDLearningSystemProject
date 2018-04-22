@@ -7,6 +7,7 @@
   -Close/Cancel Button
   
 -Login button will put you at the second GUI screen it will display the following information:
+-Which window you are shown next will depend upon your position in the university: student, or administrator.
   -All personal data about the student(or administrator):
     -Full name
     -Student ID
