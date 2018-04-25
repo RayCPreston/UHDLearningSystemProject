@@ -1,0 +1,11 @@
+Make studentLogin class have an overloaded constructor so extraneous step of uername input can be skipped.
+
+On student login class, have table display 4 different result sets based on 4 reworked buttons.
+  -One button for Student Info, which is shown by default
+  -One button for all couse Info
+  -One button to show course in which student is enrolled
+  -One button that will calculate the GPA
+  
+Create a separate class called Math, that will receive an int array parameter and process the average grade.
+
+In all tables with textboxes, have them auto highlight all text on left click.
