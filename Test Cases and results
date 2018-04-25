@@ -1,0 +1,22 @@
+Test cases used are commented out in the Connector class below the functions.
+
+Testing the whole application with the following:
+  At Login:
+    use known credentials User and Pass
+    use unknown user and pass
+    use known user but incorrect pass
+    use unknown user but known pass
+    use int
+    use negatives
+    use null
+      -Everything functions as specified in design and analysis-
+
+At Student data:
+
+  All buttons work as proposed, test cases are commented out in studentLogin file.
+  Still need to find a way to bring txtUsername variable from Login class so user doesn't have to reinput username.  Can currently
+access records for all students.
+  
+At AdminLogin
+  All buttons work as proposed test cases commented out.  Need to find a method to highlight all text on click focus.  Quality of life
+issue
