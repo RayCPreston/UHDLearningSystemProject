@@ -37,6 +37,14 @@ There will need to be a database with the following tables:
     Grade
     CourseID(FK)
     
+The database connector class will have the following functions to pass to the various GUI windows:
+  -deleteStudent
+  -insertStudent
+  -getGrades
+  -calculateGPA
+  -getJob (for determining which GUI user is sent to)
+  -getConnection
+    
 The only algorithm to be used will be the GPA calculation it will be tied to the module that runs the algorith.
 
 A module to connect to the database will be necessary and will contain functions to create the connection, another function to check for 
